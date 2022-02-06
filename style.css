@@ -1,0 +1,220 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+		font-family: "system-ui","Helvetica Neue", sans-serif;
+
+}
+.hero-box {
+	
+   background-position: center;
+   height:100vh;
+	width: 100%;
+   display:flex;
+   flex-direction: column;
+   justify-content:center;
+   align-items:center;
+   padding:0 20px;
+	     background-image: url( "img/hero.png");
+      background-size: cover;
+}
+.hero-box::before{
+	content: "";
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+	background-color: rgba(0,0,0,0.50);
+}
+nav{
+	padding:10px;
+	position: absolute;
+	height: 45px;
+	top:0;
+	width:100%;
+	background-color: rgba(0,0,0,0.50);
+
+}
+ul{
+	
+}
+nav ul{
+	overflow: hidden;
+	float:right;
+
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	text-align: center;
+
+
+}
+li a{
+	text-decoration: none;
+	color:#818AA5;
+	font-family: "system-ui","Helvetica Neue", sans-serif;
+	padding:15px;
+
+}
+li a:hover{
+	
+	border:1px solid #ccd6f6 ;
+	color:rgb(100, 255, 218);
+}
+.hero-title{
+
+	font-size: 30px;
+	line-height:70px;
+	vertical-align: baseline;
+	letter-spacing:1.2px;
+	word-spacing:0px;
+	font-style:normal;
+	font-variant:normal;
+	text-transform:none;
+	text-decoration:none solid rgb(255, 255, 255);
+	color:#ffffff;
+	font-weight:100;
+	position: relative;
+		font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",monospace;
+	
+
+}
+.typing {
+  width: 22ch;
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: monospace;
+  font-size: 1em;
+	color:#8892b0;
+	
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+.btn-1{
+	padding:10px 30px;
+	background: transparent;
+	border: 1px solid rgb(100, 255, 218);;
+	border-radius: 6px;
+	color:#ccd6f6;
+	letter-spacing:1.0px;
+	font-size:14px;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
+.body-container{
+	display:flex;
+   flex-direction: Column;
+   justify-content:center;
+	align-items:center;
+	background-color: #09192F;
+	color:#8892b0;
+	
+}
+
+.hero-line{
+	font-family:"SF Mono", "Fira Code", "Fira Mono", "Roboto Mono",monospace;
+	font-size:20px;
+	font-weight:400;
+	color:rgb(100, 255, 218);
+}
+.hero-name{
+	color:#ccd6f6;
+	font-family:"San Francisco", "SF Pro Text", system-ui, sans-serif;
+	font-size:80px;
+	letter-spacing:normal;
+	word-spacing:10px;
+}
+
+.heading-title, .heading {
+	font-weight: 200;
+	
+}
+.heading-1{
+	display: flex;
+	justify-content: flex-start;
+	align-content: center;
+	padding-bottom: 40px;
+	color:rgb(100, 255, 218);
+	font-weight:600;
+	font-size:62px;
+	
+
+}
+.about{
+	max-width:70%;
+	display:flex;
+   flex-direction: row;
+   justify-content:center;
+	align-items:center;
+	margin: 60px 0;
+	padding-bottom: 80px;
+	
+}
+
+.about-box{
+	
+	display: inline-block;
+	width:600px;
+	padding:40px;
+	
+}
+.para-1{
+	padding:0px;
+}
+img{
+	border-radius:6px;
+}
+.img-box{
+	display:flex;
+   flex-direction: row;
+   justify-content:center;
+	align-items:center;
+	width:350px;
+	height: 250px;
+	border-top: 3px solid rgb(100, 255, 218);
+	border-left: 3px solid rgb(100, 255, 218) ;
+	
+}
+
+.project-title{
+	display:flex;
+   justify-content: flex-start;
+	align-items:center;
+	padding:30px;
+	color:rgb(100, 255, 218);
+	font-weight:600;
+	font-size:62px;
+
+}
+.project-img{
+	padding:3px;
+
+}
+.project{
+	padding-bottom: 10px;
+	border-bottom: 1px solid;
+}
+.project-intro{
+
+	width:600px;
+	padding: 10px;
+	margin: 0 0 20px;
+}
