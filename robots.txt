@@ -1,1 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
+<url>
+  <loc>https://kristenloniwright.github.io/</loc>
+  <lastmod>2022-02-26T01:14:51+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/index.html</loc>
+  <lastmod>2022-02-26T01:14:51+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/Gym-LandingPage/</loc>
+  <lastmod>2022-02-16T21:03:00+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/Goodhands-Email/</loc>
+  <lastmod>2022-02-15T22:13:48+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/Yelp/</loc>
+  <lastmod>2022-02-15T19:28:54+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/stella-Dot/</loc>
+  <lastmod>2022-02-15T19:03:53+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/Airbnb-Landingpage/</loc>
+  <lastmod>2022-03-22T19:29:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/nooch-email/</loc>
+  <lastmod>2022-02-16T15:46:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/dior-email/</loc>
+  <lastmod>2022-02-16T18:37:02+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://kristenloniwright.github.io/restaurant-page/</loc>
+  <lastmod>2022-02-21T19:29:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
